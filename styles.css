@@ -1,0 +1,154 @@
+/* Basic styling */
+h1, h2, h3 {
+	font-family: "Oswald";
+	font-weight: normal;
+}
+div.jumbotron h1 {
+	color: #a81024;
+}
+div.casestudy {
+
+}
+img.full-width {
+	width: 100%;
+}
+a.linktotop {
+	color: black;
+	font-family: Oswald;
+	font-size: 1.5em; 
+	line-height: 3em;
+}
+
+
+/* Portfolio Features */
+div.portfolio-nav {
+	padding: 50px 50px; 
+}
+div.portfolio-nav-item {
+	text-align: center;
+}
+div#first-thumbnail {
+	background-image: url("assets/SetListerThumbnail.jpg");	
+}
+div#second-thumbnail {
+	background-color: rgb(150,150,150);	
+}
+div#third-thumbnail {
+	background-color: rgb(150,150,150);	
+}
+div.casestudy-thumbnail {
+	margin: 0 auto;
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+}
+div.casestudy-thumbnail a{
+	color: rgba(255,255,255,0);
+	text-decoration: none;
+}
+div.casestudy-thumbnail .project-thumbnail-overlay {
+	position:relative; 
+	top:0px; 
+	width:200px; 
+	height:200px; 
+	text-align: center;
+	padding-top: 70px;
+	background: rgba(0,0,0,0); 
+	color: rgba(255,255,255,0);
+}
+div.casestudy-thumbnail:hover .project-thumbnail-overlay{
+	background: rgba(0,0,0,0.5); 
+}
+div.casestudy-thumbnail:hover .project-thumbnail-overlay a{
+	color: rgba(255,255,255,1);
+}
+
+/* Case studies */
+div#setlister {
+	background-image: url("assets/SetListerMooodBoards2000px.jpg");
+	background-size: cover;
+	padding: 0;
+	height: 500px;
+}
+div.darken {
+	position: relative;
+	top: 0px;
+	background: rgba(0,0,0,0.5); 
+	padding: 48px;
+	height: 500px;
+}
+div#setlister h1, div#setlister h2, div#setlister h3, div#setlister a, div#setlister a:hover{
+	color: white;
+	text-decoration: none;
+}
+/* Portfolio carousel styles */
+div.portfolio-carousel-caption {
+	padding: 020px;
+} 
+.carousel-control.right, .carousel-control.left {
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  	background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  	background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+  	background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  	color: black;
+}
+.carousel-control .fa-angle-left, .carousel-control .fa-angle-right, .carousel-indicators {
+	position: absolute;
+	top: 0px;
+	line-height: 0;
+
+}
+.carousel-control .fa-angle-right {
+	right: -45px;
+}
+.carousel-control .fa-angle-left {
+	left: -45px;
+}
+.carousel-indicators li {
+	border: 1px solid black;
+	box-shadow: 1px 1px 2px #F7F7F7;
+}
+.carousel-indicators .active {
+	background-color: black;
+}
+
+/* Other sections */
+div#about {
+	background-color: rgb(200,200,200);
+	margin: 50px 0;
+	padding: 50px 0;
+}
+div#contact {
+	margin: 50px 0;
+}
+/* Parallax styles */
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 100vh 0;
+}
+.parallax__layer--base {
+	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+}
+.parallax__layer--back {
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-1px);
+}
+.parallax-item {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+

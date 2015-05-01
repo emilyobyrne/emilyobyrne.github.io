@@ -68,14 +68,12 @@ div#setlister {
 	background-image: url("assets/SetListerMooodBoards2000px.jpg");
 	background-size: cover;
 	padding: 0;
-	height: 500px;
 }
 div.darken {
 	position: relative;
 	top: 0px;
 	background: rgba(0,0,0,0.5); 
 	padding: 48px;
-	height: 500px;
 }
 div#setlister h1, div#setlister h2, div#setlister h3, div#setlister a, div#setlister a:hover{
 	color: white;
